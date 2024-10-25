@@ -16,7 +16,7 @@ logging.basicConfig(level=logging.INFO)
 
 def load_or_train_model():
     global model, scaler
-    model_path = './saved_model.keras'
+    model_path = './hbp_model.keras'
 
     # Initialize the StandardScaler for feature normalization
     scaler = StandardScaler()  # Ensure scaler is instantiated here
